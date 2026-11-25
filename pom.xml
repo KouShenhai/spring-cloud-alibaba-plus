@@ -120,7 +120,7 @@
 		<nullaway.version>0.13.0</nullaway.version>
 
 		<!-- Maven Central Portal -->
-        <central.publishing.maven.version>0.7.0</central.publishing.maven.version>
+        <central.publishing.maven.version>0.12.0</central.publishing.maven.version>
     </properties>
 
     <modules>
@@ -424,7 +424,7 @@
                         <artifactId>central-publishing-maven-plugin</artifactId>
                         <extensions>true</extensions>
                         <configuration>
-                            <publishingServerId>central</publishingServerId>
+                            <publishingServerId>spring-cloud-alibaba-plus-maven-central</publishingServerId>
                             <excludeArtifacts>
                                 <excludeArtifact>spring-cloud-alibaba-coverage</excludeArtifact>
                                 <excludeArtifact>sentinel-core-example</excludeArtifact>
