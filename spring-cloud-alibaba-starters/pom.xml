@@ -11,8 +11,8 @@
 
     <artifactId>spring-cloud-alibaba-starters</artifactId>
     <packaging>pom</packaging>
-    <name>Spring Cloud Alibaba Starters</name>
-    <description>Spring Cloud Alibaba Starters</description>
+    <name>Spring Cloud Alibaba Plus Starters</name>
+	<description>Spring Cloud Alibaba Plus Starters</description>
     
     <modules>
 
