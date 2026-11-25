@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-cloud-alibaba-test-support</artifactId>
-    <name>Spring Cloud Alibaba Test Support</name>
+    <name>Spring Cloud Alibaba Plus Test Support</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
