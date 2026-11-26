@@ -14,8 +14,8 @@
     <artifactId>spring-cloud-alibaba-dependencies</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
-    <name>Spring Cloud Alibaba Dependencies</name>
-    <description>Spring Cloud Alibaba Dependencies</description>
+    <name>Spring Cloud Alibaba Plus Dependencies</name>
+    <description>Spring Cloud Alibaba Plus Dependencies</description>
 
     <properties>
         <revision>2026.0.0.0</revision>
