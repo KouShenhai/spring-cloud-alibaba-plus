@@ -190,6 +190,10 @@
                     <groupId>org.sonatype.central</groupId>
                     <artifactId>central-publishing-maven-plugin</artifactId>
                     <version>${central.publishing.maven.version}</version>
+					<configuration>
+						<publishingServerId>spring-cloud-alibaba-plus-maven-central</publishingServerId>
+						<autoPublish>true</autoPublish>
+					</configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -336,9 +340,13 @@
                     <execution>
                         <id>flatten</id>
                         <phase>process-resources</phase>
+                        <inherited>false</inherited>
                         <goals>
                             <goal>flatten</goal>
                         </goals>
+                        <configuration>
+                            <flattenMode>bom</flattenMode>
+                        </configuration>
                     </execution>
                     <execution>
                         <id>flatten.clean</id>
@@ -415,6 +423,9 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+								<configuration>
+									<keyname>laokou</keyname>
+								</configuration>
                             </execution>
                         </executions>
                     </plugin>
